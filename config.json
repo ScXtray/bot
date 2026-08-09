@@ -1,0 +1,38 @@
+{
+  "prefix": "!",
+  "muteRoleName": "Muted",
+
+  "welcomeChannelId": "ISI_ID_CHANNEL_WELCOME",
+  "leaveChannelId": "ISI_ID_CHANNEL_LEAVE",
+
+  "logChannelId": "ISI_ID_CHANNEL_LOG",
+
+  "antiLink": {
+    "enabled": true,
+    "whitelistRoleIds": [],
+    "whitelistChannelIds": [],
+    "allowedDomains": ["tenor.com", "giphy.com"]
+  },
+
+  "antiPromosi": {
+    "enabled": true,
+    "whitelistRoleIds": [],
+    "whitelistChannelIds": []
+  },
+
+  "antiKata": {
+    "enabled": true,
+    "whitelistRoleIds": [],
+    "bannedWords": ["kata1", "kata2", "kata3"]
+  },
+
+  "reactRole": {
+    "messageId": "",
+    "channelId": "",
+    "emojiRoleMap": {
+      "🎮": "ISI_ID_ROLE_GAMER",
+      "🎨": "ISI_ID_ROLE_ARTIST",
+      "📚": "ISI_ID_ROLE_BELAJAR"
+    }
+  }
+}

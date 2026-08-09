@@ -1,0 +1,15 @@
+{
+  "name": "discord-mod-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord moderasi + utility (kick, ban, mute, timeout, afk, react role, welcome, anti-link, anti-promosi, anti kata)",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
